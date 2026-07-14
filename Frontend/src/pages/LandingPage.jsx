@@ -45,8 +45,13 @@ export default function LandingPage() {
           </h1>
 
           <p>Cover a distance by our video call App</p>
-          <div role="button">
-            <a href="/auth">Get Started</a>
+          <div
+            role="button"
+            onClick={() => {
+              navigate("/auth");
+            }}
+          >
+            Get Started
           </div>
         </div>
 
