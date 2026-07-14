@@ -1,8 +1,7 @@
-let IS_PROD = false;
-const server = IS_PROD ?
-    "YOUR_RENDER_BACKEND_URL" :
+let IS_PROD = true;
 
-    "http://localhost:5000"
-
+const server = IS_PROD
+  ? "https://zoom-app-pw9u.onrender.com"
+  : "http://localhost:5000";
 
 export default server;
