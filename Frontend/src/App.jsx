@@ -4,7 +4,7 @@ import VideoMeetComponent from "./pages/videoMeet";
 import LandingPage from "./pages/LandingPage";
 import Authentication from "./pages/authentication";
 import { AuthProvider } from "./contexts/AuthContext";//global data provider(pehle user auth se travel karega then login , home , history)
-import Home from "./pages/Home";
+import Home from "./pages/home";
 import History from "./pages/history";
 
 function App() {
